@@ -28,7 +28,7 @@ public class Test01 {
 		
 		int a = 0x00000000fee10000;
 		int b = 0x00000000fec00000;
-		System.out.println("结果为68k，但实际结果："+(a-b)/1024);
+		System.out.println("结果为1920k，但实际结果："+(a-b)/1024);
 		
 	}
 
