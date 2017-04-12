@@ -10,7 +10,7 @@ public class Test5 {
 		}*/
 		
 		//测试进入老年代的对象
-		//-Xmx1024m -Xms1024m -XX:+UseSerialGC -XX:MaxTenuringThreadhold=15 -XX:+PrintGCDetails
+		//-Xmx1024m -Xms1024m -XX:+UseSerialGC -XX:MaxTenuringThreshold=15 -XX:+PrintGCDetails
 		//-XX:+PrintHeapATGC
 		for(int k=0;k<20;k++){
 			for(int j=0;j<300;j++){
